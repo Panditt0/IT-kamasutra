@@ -3,7 +3,7 @@ import React from 'react'
 const Profile = () => {
     return <nav className='content'>
     <div>
-      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIg4KngEq__tCjJ27CJdV_hY6PyBrZ3ujEpA&s' width = '100%'/>
+      <img src='https://interier-foto.ru/wp-content/uploads/dlinnye-foto-2.jpg' width = '1200px'/>
     </div >
     <div>
       <a href='#'>Messages </a>
