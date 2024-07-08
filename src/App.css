@@ -39,7 +39,6 @@
 
 .app-wrapper {
 display: grid;
-
 grid-template-areas: 
 'header header'
 'nav content';
@@ -47,29 +46,3 @@ grid-template-rows: 60px, 1fr;
 grid-template-columns: 2fr 10fr;
 }
 
-.nav{
-
-grid-area: nav;
-background-color: rgb(171, 205, 120);
-}
-
-.header{
-  margin: 10px 0px;
-  grid-area: header;
-  background-color: rgb(92, 182, 92);
-}
-
-.header img {
-  width: 120px;
-  border-radius: 30%;
-  margin: 0px 10px;
-
-}
-
-.content{
-  margin-left: 10px;
-grid-area: content;
-background-color: cornflowerblue;
-
-
-}

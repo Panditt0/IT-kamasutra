@@ -1,21 +1,25 @@
 import React from 'react'
+import style from './Profile.module.css'
 
 const Profile = () => {
-    return <nav className='content'>
+    return <nav className={style.content}>
     <div>
       <img src='https://interier-foto.ru/wp-content/uploads/dlinnye-foto-2.jpg' width = '1200px'/>
     </div >
     <div>
-      <a href='#'>Messages </a>
+      <a href='#'>ava + description </a>
     </div>
     <div>
-      <a href='#'>News </a>
+      <a href='#'>My posts </a>
     </div>
     <div>
-      <a href='#'>Music </a>
+      <a href='#'>New Post </a>
     </div>
     <div>
-      <a href='#'>Settings </a>
+      <a href='#'>Post 1 </a>
+    </div>
+    <div>
+      <a href='#'>Post 2 </a>
     </div>
   </nav>
 }
