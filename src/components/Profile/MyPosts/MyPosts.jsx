@@ -7,9 +7,9 @@ const MyPosts = () => {
     <div className={style.myPosts}>
       <div className={style.posts}>
         <div className={style.item}>
-          <Post />
-          <Post />
-          <Post />
+          <Post text = 'Привет, как дела?' like = '1' />
+          <Post  text = 'Первый пост' like = '2'/>
+          <Post like = '3' />
         </div>
       </div>
     </div>
