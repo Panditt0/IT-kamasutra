@@ -1,0 +1,13 @@
+.item {
+  color: rgb(162, 57, 174);
+  margin: 10px;
+
+}
+
+.posts {
+  grid-area: posts;
+}
+
+.item img {
+  width: 50px;
+}
