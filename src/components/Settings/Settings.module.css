@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+}
+
+.settingsMenu {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.settingsMenu h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.settingsMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settingsMenu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.settingsMenu li:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+.settingsMenu li:last-child {
+    border-bottom: none;
+}
+
+.settingsMenu svg {
+    margin-right: 10px;
+    color: #0d64c1;
+}
