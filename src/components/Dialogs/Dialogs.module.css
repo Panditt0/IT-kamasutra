@@ -1,0 +1,79 @@
+/* Dialogs.module.css */
+
+.dialogs {
+    display: flex;
+    gap:10px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Светлый фон */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* Стили для списка диалогов */
+.dialogs_items {
+    flex: 1;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 12px 0 0 12px;
+}
+
+.dialogItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.dialogItem:hover {
+    background-color: #f1f1f1;
+}
+
+.dialogItem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dialogItem a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Стили для окна чата */
+.messages_items {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0 12px 12px 0;
+    overflow-y: auto;
+}
+
+.messageWindow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+/* Стили для отдельного сообщения */
+.message {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+}

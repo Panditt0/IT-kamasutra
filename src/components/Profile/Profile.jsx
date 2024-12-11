@@ -1,19 +1,15 @@
 
-
-import React from 'react';
 import style from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfoleInfo';
 
-const Profile = () => {
+const Profile = (props) => {
+debugger
+
   return (
-    <div>
-      <div>
-        <img src='https://interier-foto.ru/wp-content/uploads/dlinnye-foto-2.jpg' width='1200px' alt="Background" />
-      </div>
-      <div>
-        <a href='#'>ava + description </a>
-      </div>
-      <MyPosts />
+    <div style={style.profile}>
+      <ProfileInfo />
+      <MyPosts posts = {props.posts} addPost = {props.addPost} newPostText={props.newPostText} updateNewPostText = {props.updateNewPostText}/>
     </div>
   );
 }

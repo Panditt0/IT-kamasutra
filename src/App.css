@@ -48,6 +48,8 @@ html, body {
 
 .app-wrapper-content {
   grid-area: content;
+  background-color: cornflowerblue;
+  margin-left: 10px;
 }
 
 .app-wrapper {
@@ -58,10 +60,6 @@ html, body {
     'nav posts';
   /* 'posts'; */
   grid-template-rows: 10px, 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 120px 10fr;
 }
 
-.content{
-grid-area: content;
-background-color: cornflowerblue;
-}

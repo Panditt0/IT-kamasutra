@@ -1,0 +1,17 @@
+.friends {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.friendsTitle {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.friendsItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

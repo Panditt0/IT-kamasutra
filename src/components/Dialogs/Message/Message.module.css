@@ -1,0 +1,24 @@
+
+.message {
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 30%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+}
+
+.incoming {
+    background-color: #f1f1f1;
+    color: #333;
+    justify-content: start;
+
+}
+
+.outgoing {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+    justify-content: end;
+
+}

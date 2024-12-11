@@ -2,6 +2,7 @@
     grid-area: nav;
     background-color: rgb(171, 205, 120);
     width: 120px;
+    height: 400px;
     }
 
 .item {
@@ -16,8 +17,12 @@
     background-color: rgba(255, 255, 255, 0.2); /* добавляет эффект при наведении */
 }
 
-
+/* цвет для иконок */
 .item svg {
     margin-right: 10px;
     color: #0d64c1;
+}
+
+ .nav a.active {
+    color:  rgb(19, 12, 209);
 }
